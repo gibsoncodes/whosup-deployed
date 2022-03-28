@@ -20,8 +20,10 @@ function App() {
       async function load () {
         setLoader(prevState => true);
         while (gotLocation === "pending") {
+            console.log(formState, 99)
             if (formState.location) {
-                setGotLocation("active")
+                setGotLocation(prevState => "active")
+                break;
             }
             await timer(1000)
          }
@@ -29,6 +31,7 @@ function App() {
       load()
       .then(() => {
         let payload = formState;
+        console.log(formState, 99)
         axios.post("https://whosup-backend.herokuapp.com/", payload).then((res) => {
           setLoader(preVstate => false)
           setData(res.data);
