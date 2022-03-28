@@ -16,7 +16,7 @@ function App() {
 
   function submitForm() {
       const timer = ms => new Promise(res => setTimeout(res, ms))
-
+      // waits for results
       async function load () {
         setLoader(prevState => true);
         while (gotLocation === "pending") {
@@ -26,7 +26,6 @@ function App() {
             await timer(1000)
          }
       }
-
       load()
       .then(() => {
         let payload = formState;
