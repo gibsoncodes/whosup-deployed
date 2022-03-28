@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/whosup-deployed/static/css/main.202ea560.chunk.css",
+    "main.js": "/whosup-deployed/static/js/main.6a547636.chunk.js",
+    "main.js.map": "/whosup-deployed/static/js/main.6a547636.chunk.js.map",
+    "runtime-main.js": "/whosup-deployed/static/js/runtime-main.572d6c2f.js",
+    "runtime-main.js.map": "/whosup-deployed/static/js/runtime-main.572d6c2f.js.map",
+    "static/js/2.de65c035.chunk.js": "/whosup-deployed/static/js/2.de65c035.chunk.js",
+    "static/js/2.de65c035.chunk.js.map": "/whosup-deployed/static/js/2.de65c035.chunk.js.map",
+    "static/js/3.07e86aaa.chunk.js": "/whosup-deployed/static/js/3.07e86aaa.chunk.js",
+    "static/js/3.07e86aaa.chunk.js.map": "/whosup-deployed/static/js/3.07e86aaa.chunk.js.map",
+    "index.html": "/whosup-deployed/index.html",
+    "static/css/main.202ea560.chunk.css.map": "/whosup-deployed/static/css/main.202ea560.chunk.css.map",
+    "static/js/2.de65c035.chunk.js.LICENSE.txt": "/whosup-deployed/static/js/2.de65c035.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.572d6c2f.js",
+    "static/js/2.de65c035.chunk.js",
+    "static/css/main.202ea560.chunk.css",
+    "static/js/main.6a547636.chunk.js"
+  ]
+}
